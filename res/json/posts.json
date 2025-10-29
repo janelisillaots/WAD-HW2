@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "author": "John Doe",
+        "date":"Oct 22, 2024",
+        "message": "Tartu 2024",
+        "image": "res/images/tartu.jpg"
+    },
+
+    {
+        "id": 2,
+        "author": "Katie Smith",
+        "date":"Sept 25, 2024",
+        "message": "Anyone knows in which room the lab is today?",
+        "image": ""
+    },
+
+    {
+        "id": 3,
+        "author": "Olivia Moore",
+        "date":"Sept 1, 2024",
+        "message": "Happy new academic year to all fellow students! Be sure to make most of every given oportunity",
+        "image": ""
+    },
+
+    {
+        "id": 4,
+        "author": "Alex Andrews",
+        "date":"Aug 19, 2024",
+        "message": "A beautiful August sunset in Tartu",
+        "image": "res/images/sunset.jpg"
+    },
+
+    {   
+        "id": 5,
+        "author": "Laura White",
+        "date":"Aug 16, 2024",
+        "message": "Make sure to enjoy the last weeks of summer.",
+        "image": ""
+    },
+
+    {
+        "id": 6,
+        "author": "Maddison Cooper",
+        "date":"Aug 12, 2024",
+        "message": "Sunny summer morning:)",
+        "image": "res\\images\\summermorning.jpg"
+    },
+
+    {
+        "id": 7,
+        "author": "Tom Johnson",
+        "date":"Aug 1, 2024",
+        "message": "Looking for teammates for a software project.",
+        "image": ""
+    },
+
+    {   
+        "id": 8,
+        "author": "Emily Brown",
+        "date":"July 10, 2024",
+        "message": "Finished my first Java project!",
+        "image": ""
+    },
+
+    {
+        "id": 9,
+        "author": "Sarah Wilson",
+        "date":"June 30, 2024",
+        "message": "Nothing better than a long walk in nature",
+        "image": "res/images/nature.jpg"
+    },
+
+    {   
+        "id": 10,
+        "author": "David King",
+        "date":"June 15, 2024",
+        "message": "All exams finished for this year!",
+        "image": ""
+    }
+]
