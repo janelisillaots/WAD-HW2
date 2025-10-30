@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="res/css/style.css">
+    <script src="src/js/dropdown.js"></script>
     <title>HW1</title>
 
 </head>
@@ -12,7 +13,14 @@
     <ul class="nav">
         <li><a href="index.html">Home</a></li>
     </ul>
-    <a class="logo" href="login.html"><img src="res/images/icon.jpg"></a>
+    <div class="dropdown">
+        <a class="logo" href="#"><img src="res/images/icon.jpg" alt="User"></a>
+        <div class="dropdown-menu">
+            <p><strong>John Doe</strong></p>
+            <p>john.doe@ut.ee</p>
+            <button id="logout-btn">Logout</button>
+        </div>
+    </div>
 </header>
 <main>
     <div class="addpost-box">

@@ -245,3 +245,39 @@ p + #addPostButton {
     cursor: pointer;
 
 }
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none; /* Don't allows to click */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    position: absolute;
+    right: 10%;
+    top: 90%;
+    background-color: aliceblue;
+    padding: 13px;
+    border-radius: 7px;
+    box-shadow: 2px 3px rgba(115, 127, 135, 0.75);
+}
+
+.dropdown-menu.show {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.dropdown-menu button {
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border: none;
+}
+
+.dropdown-menu button:hover {
+    background-color:rgb(255, 193, 193);
+}
