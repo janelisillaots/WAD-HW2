@@ -1,21 +1,21 @@
 //const onlineJSON = "https://api.npoint.io/98ff24d49257beb13309";
-const localJSON =  "res/json/posts.json";
+    const localJSON = "res/json/posts.json";
 // used jsonlint to validate the json file
 // when fetching from online website, use the onlineJSON instead of localJSON, everything else stays the same
-fetch(localJSON)
-    .then((responce) => responce.json())
-    .then(json => {
-        console.log(json);
-        displayPosts(json);
+    fetch(localJSON)
+        .then((responce) => responce.json())
+        .then(json => {
+            console.log(json);
+            displayPosts(json);
 
-    })
-    .catch(err => {
-        let errDiv = document.createElement("div");
-        const main = document.querySelector("main");
-        errDiv.className = "post";
-        errDiv.innerText = err;
-        main.appendChild(errDiv);
-    })
+        })
+        .catch(err => {
+            let errDiv = document.createElement("div");
+            const main = document.querySelector("main");
+            errDiv.className = "post";
+            errDiv.innerText = err;
+            main.appendChild(errDiv);
+        })
     //puts the time in the footer of page
     /*
     .finally(() => {
@@ -25,7 +25,6 @@ fetch(localJSON)
         document.body.appendChild(footer);
     });
     */
-
 
 function displayPosts(posts) {
     posts.forEach(post => {
@@ -74,5 +73,4 @@ function displayPosts(posts) {
 
         main.appendChild(postDiv);
     });
-    
 }
