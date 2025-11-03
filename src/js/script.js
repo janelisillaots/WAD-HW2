@@ -51,7 +51,6 @@ function displayPosts(posts) {
         postDiv.appendChild(headerDiv);
 
         // if the post has an image then add that as well
-        let imagePost = null;
         if (post.image.trim() != "") {
             const imagePost = document.createElement("img");
             imagePost.src = post.image;
