@@ -39,7 +39,7 @@ function displayPosts(posts) {
 
         const userImg = document.createElement("img");
         userImg.src = "res/images/icon.jpg";
-        userImg.alt = post.author;
+        userImg.alt = post.author || "User";
         userImg.classList.add("user");
 
         const dateTime = document.createElement("p");
@@ -51,7 +51,7 @@ function displayPosts(posts) {
         postDiv.appendChild(headerDiv);
 
         // if the post has an image then add that as well
-        if (post.image.trim() != "") {
+        if (post.image && post.image.trim() != "") {
             const imagePost = document.createElement("img");
             imagePost.src = post.image;
             imagePost.alt = "picture";
